@@ -739,7 +739,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea9d243c7b7a7614ead28d5d72083fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: fbcf10c15f5e1ef4cb08d608e5716f0c, type: 2}
+  lineRenderer: {fileID: 1807894063}
+  circleLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1807894062
 GameObject:
   m_ObjectHideFlags: 0

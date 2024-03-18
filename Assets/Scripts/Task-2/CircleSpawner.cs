@@ -27,7 +27,7 @@ public class CircleSpawner : MonoBehaviour
         for (int i = 0; i < numCircles; i++)
         {
             Vector2 spawnPos = new Vector2(Random.Range(-spawnArea.x, spawnArea.x), Random.Range(-spawnArea.y, spawnArea.y));
-            spawnPos.x += 200f;
+            spawnPos.x += 250f;
             spawnPos.y += 200f;
             Instantiate(circlePrefab, spawnPos, Quaternion.identity, spawnParent);
         }
